@@ -1,0 +1,42 @@
+body{
+    background-image: url(/Users/terryl/Documents/網頁程式設計/11/images/IMG_5981.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg_gray{
+    background-color: rgb(60, 60, 60,0.6);
+}
+.navbar-light .navbar-brand{
+    color: rgb(200, 200, 200);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(200, 200, 200);
+}
+.active{
+    background-color: rgb(200, 200, 200);
+}
+.navbar-light .navbar-nav .nav-link:focus .navbar-brand{
+    color: rgb(255, 240, 124);
+}
+.navbar-light .navbar-brand:focus .navbar-brand{
+    color: rgb(255, 255, 255);
+}
+.my_photo{
+    width: 75%;
+}
+.contact ul{
+    list-style: none;
+    padding-left: 0%;
+}
+.contact ul li{
+    display: inline-block;
+}
+.contact ul li a{
+    font-size: 5rem;
+    color: rgb(224, 224, 224);
+}
+.contact ul li a:hover{
+    color: rgb(142, 240, 255);
+}
